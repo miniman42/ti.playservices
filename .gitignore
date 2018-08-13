@@ -3,3 +3,5 @@
 /android/build
 /android/libs
 /android/dist
+android/.gradle
+android/.idea
