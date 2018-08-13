@@ -1,0 +1,40 @@
+apply plugin: 'java'
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-ads-lite:15.0.0'
+    compile 'com.google.android.gms:play-services-analytics-impl:15.0.0'
+    compile 'com.google.android.gms:play-services-auth:15.0.0'
+    compile 'com.google.android.gms:play-services-auth-api-phone:15.0.0'
+    compile 'com.google.android.gms:play-services-auth-base:15.0.0'
+    compile 'com.google.android.gms:play-services-awareness:15.0.0'
+    compile 'com.google.android.gms:play-services-base:15.0.0'
+    compile 'com.google.android.gms:play-services-basement:15.0.0'
+    compile 'com.google.android.gms:play-services-cast:15.0.0'
+    compile 'com.google.android.gms:play-services-fitness:15.0.0'
+    compile 'com.google.android.gms:play-services-gcm:15.0.0'
+    compile 'com.google.android.gms:play-services-identity:15.0.0'
+    compile 'com.google.android.gms:play-services-iid:15.0.0'
+    compile 'com.google.android.gms:play-services-location:15.0.0'
+    compile 'com.google.android.gms:play-services-maps:15.0.0'
+    compile 'com.google.android.gms:play-services-nearby:15.0.0'
+    compile 'com.google.android.gms:play-services-panorama:15.0.0'
+    compile 'com.google.android.gms:play-services-places:15.0.0'
+    compile 'com.google.android.gms:play-services-safetynet:15.0.0'
+    compile 'com.google.android.gms:play-services-tasks:15.0.0'
+    compile 'com.google.android.gms:play-services-wallet:15.0.0'
+}
+
+configurations.all {
+    transitive = false
+}
+
+task getDeps(type: Copy) {
+    from sourceSets.main.runtimeClasspath
+    into 'lib/'
+}
