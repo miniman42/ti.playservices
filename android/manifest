@@ -2,12 +2,12 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 15.0.0
+version: 16.1.3
 apiversion: 4
 architectures: arm64-v8a armeabi-v7a x86
 description: Titanium Google Play Services module.
 license: Apache Public License v2
-copyright: Copyright (c) 2017-present by Axway Appcelerator
+copyright: Copyright (c) 2017-2019 by Axway Appcelerator
 
 # these should not be edited
 name: playservices
@@ -15,3 +15,4 @@ moduleid: ti.playservices
 guid: 32184149-411f-436b-92a8-c6ddb98a5fb6
 platform: android
 minsdk: 7.0.0
+commonjs: true

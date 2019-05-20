@@ -36,11 +36,6 @@ public class PlayServicesModule extends KrollModule
 		this.api = GoogleApiAvailability.getInstance();
 	}
 
-	@Kroll.method(runOnUiThread=true)
-	public void makeGooglePlayServicesAvailable() {
-		this.api.makeGooglePlayServicesAvailable(TiApplication.getAppRootOrCurrentActivity());
-	}
-
 	@Kroll.method
 	public int isGooglePlayServicesAvailable() {
 		return this.api.isGooglePlayServicesAvailable(TiApplication.getAppRootOrCurrentActivity());
@@ -54,5 +49,11 @@ public class PlayServicesModule extends KrollModule
 	@Kroll.method
 	public String getErrorString(int code) {
 		return this.api.getErrorString(code);
+	}
+
+	@Override
+	public String getApiName()
+	{
+		return "Ti.Playservices";
 	}
 }

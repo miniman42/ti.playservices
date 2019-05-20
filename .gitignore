@@ -1,7 +1,11 @@
 .DS_Store
-/android/java-sources.txt
-/android/build
-/android/libs
-/android/dist
-android/.gradle
-android/.idea
+
+node_modules/
+
+TESTS-*.xml
+
+android/build/
+android/java-sources.txt
+android/dist/
+android/lib/*.aar
+android/libs/
