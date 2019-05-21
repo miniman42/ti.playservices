@@ -116,6 +116,7 @@ async function gatherLibraries(repository) {
         'play-services-fido',
         'play-services-gass',
         'play-services-tagmanager',
+        'play-services-awareness',
         'play-services-clearcut',
         'play-services-phenotype',
         'play-services-vision-image-label',

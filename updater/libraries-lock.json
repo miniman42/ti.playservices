@@ -75,11 +75,6 @@
 		"integrity": "sha512-6Rk7TcSvAsXwNdY5sy8LrX2HtkCoRKEQhS4UstQ81oHJ4YGZew5jPIOnhoPYAiM7+oBk557OF27UDAv12yeQFw=="
 	},
 	{
-		"url": "https://maven.google.com/com/google/android/gms/play-services-awareness/16.0.0/play-services-awareness-16.0.0.aar",
-		"name": "play-services-awareness-16.0.0.aar",
-		"integrity": "sha512-OAc64ecbJlzrSQbTtvMNWy0GsxQN41Q9ftshBXkSqWKNLJupd1GykaslXtD5yBh0DPWl7bMWJhokrDJiy2DQww=="
-	},
-	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-stats/16.0.1/play-services-stats-16.0.1.aar",
 		"name": "play-services-stats-16.0.1.aar",
 		"integrity": "sha512-ef57Dlm8xIVww7EjiP0etoivGVkNaWUizveZRSZh6SX9GJX+twfTeH1UE3ESi6dQ4SQ5f/ctkF8Ulrs2dqV0TA=="
@@ -105,14 +100,14 @@
 		"integrity": "sha512-PhKv5CpZIjL3Ig3A48/aSQW5I1+zyKCjBOdz8o6MBySDNiz8T+KE9rTxe155CWRjT0d5LlcwaNwmBsMZLVGrhQ=="
 	},
 	{
-		"url": "https://maven.google.com/com/google/android/gms/play-services-auth-api-phone/16.0.0/play-services-auth-api-phone-16.0.0.aar",
-		"name": "play-services-auth-api-phone-16.0.0.aar",
-		"integrity": "sha512-w+lfWbETUtmLRVJrNpw1HHSlo0wUJN2mlBb/tpg3aTo1Sgb1ukVmu931jwTyxdJn4oMs/saFMEyeqkxe+UhwsA=="
-	},
-	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-auth-base/16.0.0/play-services-auth-base-16.0.0.aar",
 		"name": "play-services-auth-base-16.0.0.aar",
 		"integrity": "sha512-uHQlt0hp36/WRIzqvFbg+FtXvCJMFP7p6E5jZc84UYAUcRoli/x96/z9kACRdReBIzJpGvRpE+RcMAnVFHiWGQ=="
+	},
+	{
+		"url": "https://maven.google.com/com/google/android/gms/play-services-auth-api-phone/16.0.0/play-services-auth-api-phone-16.0.0.aar",
+		"name": "play-services-auth-api-phone-16.0.0.aar",
+		"integrity": "sha512-w+lfWbETUtmLRVJrNpw1HHSlo0wUJN2mlBb/tpg3aTo1Sgb1ukVmu931jwTyxdJn4oMs/saFMEyeqkxe+UhwsA=="
 	},
 	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-flags/16.0.1/play-services-flags-16.0.1.aar",
@@ -150,19 +145,14 @@
 		"integrity": "sha512-knJOsUcCg0GKUKd3Ou9ci81YpHqjZ/HJDK0DBCgSMcQnVAiRJg2vHOJdoAgb7RBJ1XbotJBLJzm3/RpilmZnnA=="
 	},
 	{
-		"url": "https://maven.google.com/com/google/android/gms/play-services-measurement-sdk/16.5.0/play-services-measurement-sdk-16.5.0.aar",
-		"name": "play-services-measurement-sdk-16.5.0.aar",
-		"integrity": "sha512-SGaiun/U8uUd2J7qO1jfQ6wfcHpeYpBUbmnG10q9GhXFHWHvTbXwk29raqupbVcVN1c+DtG2Lkg5yV+Q4dLs2w=="
-	},
-	{
-		"url": "https://maven.google.com/com/google/android/gms/play-services-appstate/8.4.0/play-services-appstate-8.4.0.aar",
-		"name": "play-services-appstate-8.4.0.aar",
-		"integrity": "sha512-ohSCQRnfn573DZD2ccFWZlBzose13sXn7Y8RKOTpYU5P29ihFvL9BW7uRbW83YO4pIyhDVjWTAs4RBogVy1miQ=="
-	},
-	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-panorama/16.0.0/play-services-panorama-16.0.0.aar",
 		"name": "play-services-panorama-16.0.0.aar",
 		"integrity": "sha512-MrOjTg+MoJWt7pVjVXak6PEwf/2BgXysmESLurWxd/BecJzVceNCsYQcG+8Dfa88jkClY8G3+lY+Mcm/TtMP6A=="
+	},
+	{
+		"url": "https://maven.google.com/com/google/android/gms/play-services-measurement-sdk/16.5.0/play-services-measurement-sdk-16.5.0.aar",
+		"name": "play-services-measurement-sdk-16.5.0.aar",
+		"integrity": "sha512-SGaiun/U8uUd2J7qO1jfQ6wfcHpeYpBUbmnG10q9GhXFHWHvTbXwk29raqupbVcVN1c+DtG2Lkg5yV+Q4dLs2w=="
 	},
 	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-places-placereport/16.0.0/play-services-places-placereport-16.0.0.aar",
@@ -170,18 +160,23 @@
 		"integrity": "sha512-Ae08gy940lw4wFd3vdTN9m5dct3vIH72J5GyajQCnoMRBNwmkB+mGfxpURknehwV/URhmzmBOqKXjloE/eibbg=="
 	},
 	{
+		"url": "https://maven.google.com/com/google/android/gms/play-services-appstate/8.4.0/play-services-appstate-8.4.0.aar",
+		"name": "play-services-appstate-8.4.0.aar",
+		"integrity": "sha512-ohSCQRnfn573DZD2ccFWZlBzose13sXn7Y8RKOTpYU5P29ihFvL9BW7uRbW83YO4pIyhDVjWTAs4RBogVy1miQ=="
+	},
+	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-audience/16.0.0/play-services-audience-16.0.0.aar",
 		"name": "play-services-audience-16.0.0.aar",
 		"integrity": "sha512-lqImOk1CmjPOVYK2vH0eA2jFMSQ6RT4s7YxC/KS83u1JW0OKnJj8qXYBTRHMD4ioGIlsYHpCOFSWFIGo1cTdng=="
 	},
 	{
-		"url": "https://maven.google.com/com/google/android/gms/play-services-cronet/16.0.0/play-services-cronet-16.0.0.aar",
-		"name": "play-services-cronet-16.0.0.aar",
-		"integrity": "sha512-Nk9+SmJCp1yy0a79kuD9teZn/+TMLYcsyUZxU595i2zIQ3wfWBbLVAAYNvs9k+rHPY1YAEtLVPncGiBCZpejIw=="
-	},
-	{
 		"url": "https://maven.google.com/com/google/android/gms/play-services-oss-licenses/16.0.2/play-services-oss-licenses-16.0.2.aar",
 		"name": "play-services-oss-licenses-16.0.2.aar",
 		"integrity": "sha512-OTpRckQr3RTv6IwMnhCYxiJs1YlEQEZfVIFT8D3RZx8mp9mq9KXECbN8K5Mz5IQcaMyQA5az5bdvdRDQ937iew=="
+	},
+	{
+		"url": "https://maven.google.com/com/google/android/gms/play-services-cronet/16.0.0/play-services-cronet-16.0.0.aar",
+		"name": "play-services-cronet-16.0.0.aar",
+		"integrity": "sha512-Nk9+SmJCp1yy0a79kuD9teZn/+TMLYcsyUZxU595i2zIQ3wfWBbLVAAYNvs9k+rHPY1YAEtLVPncGiBCZpejIw=="
 	}
 ]
